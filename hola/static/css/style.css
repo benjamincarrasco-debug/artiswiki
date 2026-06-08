@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .navbarra {
     padding: 15px 40px;
     display: flex;
@@ -11,6 +12,7 @@
     align-items: center;
     background-color: #410000;
 }
+
 .logo a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -20,6 +22,7 @@
     align-items: center;
     font-weight: bold;
 }
+
 .nav-links {
     display: flex;
     gap: 20px;
@@ -39,7 +42,67 @@
     background-color: white;
     color: #410000;
 }
-#especial{
-    background-color: #5e98f5;
-    color: #ffffff;
+
+#especial {
+    background-color: #fff;
+    color: #410000;
 }
+
+/* PARTE DE MILO J*/
+.milo5 {
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.cuerpo {
+    background-color: rgb(63, 71, 134);
+}
+
+.milobrz{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+/*PARTE DE COSMIC KID*/
+.Cosmickidimg1 {
+    max-height: px;
+    max-width: 300px;
+}
+.Cosmickid2 {
+    display: flex;
+    margin: 30px 10px 0 0px;
+}
+.logo_cosmickid a {
+    color: #76395d;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* PARTE DE MICHAEL JACKSON*/
+.logo_michael a {
+    color: rgba(240, 216, 4, 0.699);
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.michael{
+    display: flex; 
+    margin: 30px 10px 0 10px; 
+}
+.michael img{
+    max-height: 300px;
+}
+/*PARTE DE CALLE 13*/
