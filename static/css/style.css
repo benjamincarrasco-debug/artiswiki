@@ -85,8 +85,9 @@
     margin: 0 auto;
     max-width: 500px;
 }
-.milo5:hover{
-        border-radius: 50%;
+
+.milo5:hover {
+    border-radius: 50%;
     border: 1px solid #BB9C5F;
     transform: scale(0.9);
 }
@@ -114,17 +115,80 @@
 
 .parrafo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: #F5F5F4;
     text-align: center;
 }
 
 .cuerpo {
-    background-color: rgb(85, 103, 241);
+    background-color: #1C1917;
+}
+
+.cajaDatosprincipal {
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+    flex: 2;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #292524;
+    display: flex;
+    padding: 60px;
+    position: relative;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cajadatos {
+    align-self: center;
+    color: aliceblue;
+    font-size: 15px;
+    flex: 2;
+}
+
+.cajaDatosprincipal img {
+    flex: 1;
+    height: auto;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #22201E;
+    padding: 40px;
+    position: relative;
+    gap: 30px;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.caja {
+
+    width: 55%;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center
+}
+
+.milo2 {
+    width: 38%;
+    border-radius: 8px;
 }
 
 .list a {
     text-decoration: none;
-color: #000000;
+    color: #000000;
 }
 
 .list {
@@ -134,17 +198,12 @@ color: #000000;
 .title {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: #D6B36E;
 }
 
 .tiltlem {
     color: rgb(51, 19, 19);
 }
-
-.card-img-top {
-    max-width: 300px;
-    max-height: 342px;
-}
-
 
 /*PARTE DE COSMIC KID*/
 .Cosmickidimg1 {
@@ -200,10 +259,11 @@ color: #000000;
     padding: 20px;
 }
 
-.Cosmiclista a{
+.Cosmiclista a {
     text-decoration: none;
     color: white;
 }
+
 .Cosmiclista2 {
     display: flex;
     flex-direction: column;
@@ -221,11 +281,12 @@ color: #000000;
     border: 1px solid crimson;
     transform: scale(1.2);
 }
-.Cosmickid2 img:hover{
+
+.Cosmickid2 img:hover {
     transform: scale(1.1);
 }
 
-.footerC{
+.footerC {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,9 +295,10 @@ color: #000000;
     color: white;
 }
 
-.footerC audio{
+.footerC audio {
     visibility: hidden;
 }
+
 /* PARTE DE MICHAEL JACKSON */
 .body_michael {
     background-color: #441111;
@@ -263,12 +325,15 @@ color: #000000;
     gap: 30px;
     color: white;
 }
-.parrafo1_michael{
-    padding-right:30px;
+
+.parrafo1_michael {
+    padding-right: 30px;
 }
-.parrafo1_michael a{
-    text-decoration:none;
+
+.parrafo1_michael a {
+    text-decoration: none;
 }
+
 .imagenes {
     display: flex;
     flex-direction: column;
@@ -320,7 +385,8 @@ color: #000000;
 .informacion_michael li {
     margin: 10px;
 }
-.footer{
+
+.footer {
     color: #fff;
 }
 
@@ -354,89 +420,89 @@ color: #000000;
 
 .caja_texto {
     overflow: hidden;
-   flex: 1;
+    flex: 1;
 
 }
 
 .imagen {
     flex: 1;
-   position: relative;
-   width: 100%;
-   
-   display: flex;
+    position: relative;
+    width: 100%;
+
+    display: flex;
 }
 
 .imagen img {
-       position: absolute;
-       height: 480px;
-       top:-280px;
-   min-width: 300px;
+    position: absolute;
+    height: 480px;
+    top: -280px;
+    min-width: 300px;
 
 }
 
 
 .caja_doatos_div {
-   display: flex;
-   gap: 20px;
+    display: flex;
+    gap: 20px;
     flex-wrap: wrap;
- 
+
 }
 
 .caja_Datos_principal {
     min-height: 300px;
     height: auto;
-   width: 40%;
-   flex: 2;
-   justify-content: space-between;
-   border-radius: 10px;
-   background-color: black;
-   display: flex;
-   padding: 60px;
-   position: relative;
-   gap: 30px;
-    
-   flex-wrap: wrap;
+    width: 40%;
+    flex: 2;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    padding: 60px;
+    position: relative;
+    gap: 30px;
+
+    flex-wrap: wrap;
 
 }
 
 .caja_datos {
-   align-self: center;
-   color: aliceblue;
-   font-size: 15px;
-   flex: 2;
+    align-self: center;
+    color: aliceblue;
+    font-size: 15px;
+    flex: 2;
 }
 
 .caja_Datos_principal img {
     flex: 1;
     height: auto;
-   width: 280px;
-   height: 250px;
-   display: flex;
-   justify-content: center;
- 
+    width: 280px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .caja_dos_dato {
     min-height: 300px;
     height: auto;
     flex: 1;
-  
-   border: 1px solid black;
-   border-radius: 10px;
-   background-color: rgb(255, 255, 255);
-   padding: 70px
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 70px
 }
 
 .caja_dos_dato p {
-   padding: 10px;
+    padding: 10px;
 }
 
 
 .seccion_calletre {
-   width: 100%;
-   height: 300px;
-   border: 1px solid black;
-   padding: 40px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    padding: 40px;
 
 }
 
@@ -444,119 +510,119 @@ color: #000000;
 .div_secion_22 {
     overflow: hidden;
     flex-wrap: wrap;
-   width: 100%; 
-   
-   justify-content: space-between;
-   background-color: #000000;
-   display: flex;
-   padding: 40px;
-   position: relative;
-   gap: 30px;
+    width: 100%;
+
+    justify-content: space-between;
+    background-color: #000000;
+    display: flex;
+    padding: 40px;
+    position: relative;
+    gap: 30px;
 
 }
 
 .caja_texto_tos {
 
-   width: 55%;
-   color: #ffffff;
-   font-size: 15px;
+    width: 55%;
+    color: #ffffff;
+    font-size: 15px;
 
 }
 
 .imagen_dos {
-   display: flex;
-   justify-content: center;
-     flex: 2;
+    display: flex;
+    justify-content: center;
+    flex: 2;
 
 }
 
 .imagen_dos img {
-   
-   box-shadow: #ffffff 1px 1px 1px 1px;
-   width: 300px;
-   height: 300px;
+
+    box-shadow: #ffffff 1px 1px 1px 1px;
+    width: 300px;
+    height: 300px;
 
 }
 
 .titulo_tar {
-   align-self: center;
+    align-self: center;
 }
 
 .contenedor_tarjetas_dos {
-   padding: 15px 0;
-   border-radius: 2px;
-   display: flex;
-   justify-content: center;
-   gap: 10px;
-   text-align: center;
-   flex-wrap: wrap;
+    padding: 15px 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 
 .box_dos {
-    flex:1;
+    flex: 1;
     min-width: 300px;
     background-color: #F5F8FE;
     display: flex;
-   flex-direction: column;
-   color: rgb(34, 34, 34);
-   border: 2px#7c7b7b solid;
-   gap: 20px;
-   width: 100px;
-   height: 380px;
-   width: 39%;
-   border-radius: 10px;
-   transition: tranform 0.5s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+    color: rgb(34, 34, 34);
+    border: 2px#7c7b7b solid;
+    gap: 20px;
+    width: 100px;
+    height: 380px;
+    width: 39%;
+    border-radius: 10px;
+    transition: tranform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .box_dos:hover {
-   transform: translateY(-10px);
-   box-shadow: 0 15PX 25px rgb(71, 71, 71);
+    transform: translateY(-10px);
+    box-shadow: 0 15PX 25px rgb(71, 71, 71);
 }
 
 
 .box_dos h3 {
-   padding: 10px 10px;
-   color: #555454;
+    padding: 10px 10px;
+    color: #555454;
 }
 
 .box_dos p {
-   padding: 14px 10px;
-   align-items: center;
-   color: #525050;
+    padding: 14px 10px;
+    align-items: center;
+    color: #525050;
 }
 
 .CONTENEDOR_dos {
     overflow: hidden;
     min-height: 270px;
-   background-color: #000000;
-   color: white;
-   border: 2px#ffffff solid;
-   width: 100%;
-   padding: 20px;
-   border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    border: 2px#ffffff solid;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
 
 }
 
 .contendor_tres {
 
 
-   border-radius: 2px;
-   background-color: #F5F8FE;
-   display: flex;
-   justify-content: center;
-   text-align: center;
+    border-radius: 2px;
+    background-color: #F5F8FE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .foto {
-   flex-wrap: wrap;
-   display: flex;
-   border-radius: 2px;
-   padding: 10px;
-   position: relative;
-   justify-content: space-between;
-   gap: 10px;
-   overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 2px;
+    padding: 10px;
+    position: relative;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
 
 }
 
@@ -564,43 +630,42 @@ color: #000000;
 
 
 .di {
-   height: 500px;
-   border: 2px #525050 solid;
-   border-radius: 2px;
-    flex:1;
+    height: 500px;
+    border: 2px #525050 solid;
+    border-radius: 2px;
+    flex: 1;
     min-width: 300px;
 }
 
 .foto img {
-   position: relative;
-   left: 100px;
-   top: 40px;
+    position: relative;
+    left: 100px;
+    top: 40px;
 }
 
-.video24
- {
-   max-width: 560px;
-   max-height: 340px;
-   min-width: 200px;
+.video24 {
+    max-width: 560px;
+    max-height: 340px;
+    min-width: 200px;
 
-   width:100%;
-   display: flex;
+    width: 100%;
+    display: flex;
 
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 
 .video_foto {
- 
-   height: 500px;
-   border: 2px #525050 solid;
-   padding: 40px;
+
+    height: 500px;
+    border: 2px #525050 solid;
+    padding: 40px;
     min-height: 300px;
     height: auto;
-   flex: 1;
+    flex: 1;
 }
 
 .video_foto h2 {
-   padding: 10px;
-   color: #555454;
+    padding: 10px;
+    color: #555454;
 }
